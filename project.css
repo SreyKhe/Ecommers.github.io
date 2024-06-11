@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Battambang&family=Poppins&display=swap');
+*{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Battambang', system-ui;
+    font-family: 'Poppins', sans-serif;
+}
+.sd{
+    box-shadow: 1px 8px 8px rgba(230, 227, 227, 0.522);
+}
+.bd{
+    border-bottom: 1px solid rgba(223, 223, 223, 0.579);
+}
+.hv:hover{
+    color: deeppink !important;
+}
+/* slider */
+/* .width{
+    height: 60vh;
+} */
+/* Collection */
+.title h2::before{
+    position: absolute;
+    content: " ";
+    width: 4px;
+    height: 50px;
+    background-color: deeppink;
+    left: -20px;
+    /* right: -10%; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+#butt{
+    /* width: 200px; */
+    /* background-color: rgb(236, 233, 239); */
+    border-radius: 50px;
+    border: 1px solid rgb(153, 151, 151);
+}
+#butt:hover{
+    background-color: deeppink;
+    color:white;
+}
+.collection-img span{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(234, 14, 190);
+    border-radius: 50%;
+    top: 5%;
+    right: 5%;
+}
+/* Special */
+.special-img span{
+    top: 5%;
+    right: 10%;
+}
+.special-img:hover img{
+    transform: scale(1.2);
+}
+.special-img img{
+    transition: all 0.3;
+}
+/*offer */
+.offer{
+    background-image: url("./images/offer_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.offer .width{
+    height: 60vh;
+}
+/* Subscribe */
+.subscrip .circle{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+    padding: 5px 10px;
+    border: 1px solid gray;
+}
+/* @media(min-width:992px){
+    .length{
+        width: 100% !important;
+    }
+} */
+.subscrip .circle1{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    
+}
+.subscrip .circle1:hover{
+    background-color: black;
+    border: 1px solid black;
+    
+}
+@media(min-width : 992px){
+    .bd{
+        border: none;
+    }
+}
